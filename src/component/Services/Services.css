@@ -1,0 +1,9 @@
+.service{
+    margin-top: 20px;
+}
+
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px 30px;
+}

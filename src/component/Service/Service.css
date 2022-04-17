@@ -1,0 +1,21 @@
+.single-service{
+    
+    margin: 10px 20px;
+    background-color: rgb(201, 227, 250);
+    border-radius: 10px;
+    box-shadow: 5px 5px lightblue;
+    position: relative;
+}
+
+
+img{
+    min-height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.service-info{
+    padding: 10px 20px;
+}
+
