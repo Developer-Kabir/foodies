@@ -1,3 +1,19 @@
 .my-nav{
     height: 80px;
 }
+
+.linkstyle{
+    text-decoration: none;
+    color: white;
+    margin: 0px 0px 0px 20px;
+    font-weight: 600;
+}
+
+.linkstyle:hover{
+    color: white;
+}
+
+.logo-img{
+    width: 150px;
+    height: 80px;
+}

@@ -8,7 +8,6 @@
 
 
 img{
-    min-height: 300px;
     overflow: hidden;
     border-radius: 20px;
     padding: 10px;
@@ -16,5 +15,23 @@ img{
 
 .service-info{
     padding: 10px 20px;
+}
+
+.btnbtn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+.c-link{
+    text-decoration: none;
+    color: white; 
+}
+
+.c-link:hover{
+    color: white;
+    font-size: 25px;
 }
 

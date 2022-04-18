@@ -1,5 +1,5 @@
 .single-recipe{
-    margin: 10px 20px;
+    margin: 15px 20px;
     background-color: rgb(182, 225, 253);
     border-radius: 10px;
     box-shadow: 5px 5px rgb(182, 225, 253);
@@ -8,7 +8,6 @@
 
 
 img{
-    min-height: 300px;
     overflow: hidden;
     border-radius: 20px;
     padding: 10px;

@@ -10,7 +10,7 @@ const Recipes = () => {
             .then(data => setRecipes(data))
     }, [])
     return (
-        <div className='recipes'>
+        <div id='recipe' className='recipes'>
 
             <h2 className='fw-bold text-center'>
                 Foodies Populer Recipes/Item
