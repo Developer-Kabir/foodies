@@ -1,0 +1,38 @@
+[
+    {
+      "id": "625d1901e0e3ea5afb95b0af",
+      "picture": "https://i.ibb.co/z7jbfc9/katie-smith-u-Qs1802-D0-CQ-unsplash.png",
+      "price": 50,
+      "name": "Egg Salad"
+    },
+    {
+      "id": "625d1901d757c0879edf1544",
+      "picture": "https://i.ibb.co/7zmWZ9z/deryn-macey-k-PLcc-IMt-S8-E-unsplash.png",
+      "price": 100,
+      "name": "Foodies Burger"
+    },
+    {
+      "id": "625d1901a6581b670c566d11",
+      "picture": "https://i.ibb.co/6v48Y20/ella-olsson-C1-Q3q-OTlegg-unsplash.png",
+      "price": 125,
+      "name": "Mix Fruit"
+    },
+    {
+      "id": "625d1901c6726c907b4d1cec",
+      "picture": "https://i.ibb.co/C5pDZvF/christiann-koepke-Aigx-B1zf-RVo-unsplash.png",
+      "price": 200,
+      "name": "Strawbery Cake"
+    },
+    {
+      "id": "625d1901dab3a33b8bb183a6",
+      "picture": "https://i.ibb.co/6PYHJXj/vitor-monthay-zqmlcfdxg-HQ-unsplash.png",
+      "price": 150,
+      "name": "Mini Steck"
+    },
+    {
+      "id": "625d1901ccdb19f248e515bf",
+      "picture": "https://i.ibb.co/6vwmhcq/mateusz-feliksik-w-Qif-Hm-Be3kc-unsplash.png",
+      "price": 250,
+      "name": "Foodies Steak"
+    }
+  ]

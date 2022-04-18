@@ -1,8 +1,8 @@
-.single-service{
+.single-recipe{
     margin: 10px 20px;
-    background-color: rgb(201, 227, 250);
+    background-color: rgb(182, 225, 253);
     border-radius: 10px;
-    box-shadow: 5px 5px lightblue;
+    box-shadow: 5px 5px rgb(182, 225, 253);
     position: relative;
 }
 
@@ -14,7 +14,6 @@ img{
     padding: 10px;
 }
 
-.service-info{
+.recipe-info{
     padding: 10px 20px;
 }
-
