@@ -1,0 +1,12 @@
+.ft{
+    background-color: aquamarine;
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    padding: 30px 200px;
+    margin-top: 20px;
+}
