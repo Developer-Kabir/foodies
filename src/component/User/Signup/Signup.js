@@ -1,11 +1,17 @@
-
+import './Signup.css'
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Signup = () => {
     return (
-        <div>
+        <div className='signup'>
             <Form>
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Label>Name</Form.Label>
+                    <Form.Control type="text" placeholder="Enter Your Name" />
+                    
+                </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control type="email" placeholder="Enter email" />
@@ -19,7 +25,7 @@ const Signup = () => {
                     <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
+                <p>Allready have an account please<Link className='linkstyle text-dark' to="/login">Login</Link> </p>
                 </Form.Group>
                 <Button variant="primary" type="submit">
                     Submit

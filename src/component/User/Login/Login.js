@@ -1,10 +1,11 @@
 
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
-        <div>
+        <div className='signup'>
             <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
@@ -19,7 +20,7 @@ const Login = () => {
                     <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
+                    <p>If you are new here please<Link className='linkstyle text-dark' to="/signup">Signup</Link> </p>
                 </Form.Group>
                 <Button variant="primary" type="submit">
                     Submit
