@@ -7,7 +7,7 @@ const Recipe = ({recipe}) => {
         <div>
             <div className='single-recipe'>
             <div className='recipe-img'>
-                <img className='img-fluid' src={picture} alt="" />
+                <img className='img-fluid w-100'  src={picture} alt="" />
             </div>
             <div className='recipe-info'>
                 <h4>{name}</h4>

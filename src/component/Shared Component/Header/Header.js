@@ -31,7 +31,7 @@ const Header = () => {
                             </Nav>
                             {
                                 user ?
-                                    <Link to="/" onClick={handleSignOut}>Sign Out</Link>
+                                    <Link className='linkstyle' to="/" onClick={handleSignOut}>Sign Out</Link>
                                     :
                                     <div className='d-lg-flex'>
                                         <Link className='linkstyle' to="/login">Log In</Link>

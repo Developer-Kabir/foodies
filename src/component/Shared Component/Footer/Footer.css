@@ -5,10 +5,11 @@
 
 .footer{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 
-    padding: 30px 200px;
+    padding: 30px 50px;
     margin-top: 20px;
+    grid-gap: 20px;
 }
 
 @media only screen and (max-width: 576px) {

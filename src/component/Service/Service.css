@@ -1,6 +1,6 @@
-.single-service{
+.single-service {
     margin: 10px 20px;
-    height: 500px;
+    height: 520px;
     background-color: rgb(201, 227, 250);
     border-radius: 10px;
     box-shadow: 5px 5px lightblue;
@@ -8,18 +8,17 @@
 }
 
 
-img{
+img {
     overflow: hidden;
     border-radius: 20px;
     padding: 10px;
-    height: 250px;
 }
 
-.service-info{
+.service-info {
     padding: 10px 20px;
 }
 
-.btnbtn{
+.btnbtn {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -27,13 +26,20 @@ img{
 
 
 
-.c-link{
+.c-link {
     text-decoration: none;
-    color: white; 
+    color: white;
 }
 
-.c-link:hover{
+.c-link:hover {
     color: white;
     font-size: 25px;
 }
 
+
+@media only screen and (max-width: 576px) {
+    .single-service {
+        margin: 10px 20px;
+        height: 540px;
+    }
+}
