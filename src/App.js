@@ -9,12 +9,14 @@ import Header from './component/Shared Component/Header/Header';
 import Login from './component/User/Login/Login';
 import Signup from './component/User/Signup/Signup';
 import ReqAuth from './component/User/RequiredAuth/ReqAuth'
+import PageNotFound from './component/PageNotFount/PageNotFound';
 
 function App() {
   return (
     <div>
       <Header></Header>
       <Routes>
+        <Route path='*' element={<PageNotFound></PageNotFound>}></Route>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/about' element={<About></About>}></Route>
