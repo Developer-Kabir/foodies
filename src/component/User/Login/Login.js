@@ -74,8 +74,9 @@ const Login = () => {
                     <p>If you are new here please<Link onClick={navigateSignUp} className='linkstyle text-dark' to="/signup">Signup</Link> </p>
                 </Form.Group>
                 <Button variant="primary" type="submit">
-                    Submit
+                    Login
                 </Button>
+                <p>{error}</p>
             </Form>
 
             <p>Forget Password?<button className='btn btn-link text-success pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>

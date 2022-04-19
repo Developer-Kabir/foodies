@@ -67,7 +67,7 @@ const Signup = () => {
                 <p>Allready have an account please<Link onClick={navigateLogin} className='linkstyle text-dark' to="/login">Login</Link> </p>
                 </Form.Group>
                 <Button variant="primary" type="submit">
-                    Submit
+                    Sign Up
                 </Button>
             </Form>
         </div>

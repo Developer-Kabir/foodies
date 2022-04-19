@@ -16,7 +16,7 @@ function App() {
     <div>
       <Header></Header>
       <Routes>
-        <Route path='*' element={<PageNotFound></PageNotFound>}></Route>
+        
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/about' element={<About></About>}></Route>
@@ -28,6 +28,7 @@ function App() {
         }>
          
         </Route>
+        <Route path='*' element={<PageNotFound></PageNotFound>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<Signup></Signup>}></Route>
 
