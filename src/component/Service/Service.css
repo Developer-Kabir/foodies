@@ -1,5 +1,6 @@
 .single-service{
     margin: 10px 20px;
+    height: 500px;
     background-color: rgb(201, 227, 250);
     border-radius: 10px;
     box-shadow: 5px 5px lightblue;
@@ -11,6 +12,7 @@ img{
     overflow: hidden;
     border-radius: 20px;
     padding: 10px;
+    height: 250px;
 }
 
 .service-info{
